@@ -1,0 +1,421 @@
+
+
+body{
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: left;
+
+}
+
+h1, h2{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 100;
+
+}
+
+h4{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  color: white;
+
+}
+
+h5{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  color: black;
+
+}
+
+.container-fluid{
+  padding: 7% 15%;
+  
+}
+
+p.white{
+  color: white;
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Section */
+.color-section{
+  background-color: black;
+
+  /* color:black; */
+}
+
+.white-section{
+  background-color:white;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 1rem 2rem 2rem;
+  background: white;
+
+}
+
+
+.nav-item{
+  padding: 0 30px;
+}
+.nav-link{
+  font-size: 1.0rem;
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 400;
+
+
+}
+.navbar-branch{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #F82E8F;
+
+}
+
+.m_logo{
+  width: 15%;
+}
+
+#home{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/* Download Button */
+/* top-right-bottom-left */
+.download-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* Title Section */
+
+
+.title-image{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 576px){
+ 
+  .container_works{
+    display: block;
+    }
+  
+
+}
+
+@media (max-width: 600px ){
+
+
+
+}
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+  .product .itemBox{
+
+   
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container_works{
+  display: block;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #title{
+    text-align: center;
+  }
+
+
+}
+
+
+
+/* about me */
+
+.container2 {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+#about .container-fluid{
+  padding: 5% 15% 5%;
+  text-align: left;
+  
+}
+
+.portrait-image {
+  max-width: 100%;
+  height: auto;
+  position: left;
+  margin: auto;
+
+}
+
+/* .container2.row{
+  display: flex;
+  align-content: space-between;
+} */
+
+.about_me {
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  color: white;
+}
+
+.about_content {
+  color: white;
+  margin-left: 30px; 
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1.5px;
+}
+
+
+/* Features-section */
+
+#services{
+  position: relative;
+  /* margin-bottom: 30px;
+  padding: 23px;
+  background: black; */
+}
+
+
+.services-box{
+  padding: 2%;
+}
+
+
+p.black{
+  color: black;
+}
+
+
+.icon {
+  color:#FF99CA;
+  margin-bottom: 2rem;
+}
+
+/* changing color when the mouse touch */
+.icon:hover{
+  color: #F82E8F;
+}
+
+
+.container_works{
+  padding: 70px 70px;
+  margin: 40px auto;
+}
+
+
+
+section ul{
+  /* display: flex; */
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  /* grid-gap: 5px; */
+  padding-left: 0rem;
+}
+
+
+section ul li {
+  list-style: none;
+  background: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+section ul li.active{
+  background-color: #FF99CA;
+  color: #fff;
+}
+
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px; */
+
+}
+
+/* .product .itemBox{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+
+.product .itemBox img{
+  position: absolute;
+  top: 0;
+  width:100%;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+} */
+
+.product .itemBox{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.product .itemBox img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .product .itemBox {
+    flex: 50%;
+    max-width: 50%;
+  }
+  section ul li {
+    list-style: none;
+    background: #fff;
+    padding: 6px 15px;
+    margin: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 0.5rem;
+  }
+ 
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .product .itemBox {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  section ul li {
+    list-style: none;
+    background: #fff;
+    padding: 4px 10px;
+    margin: 2px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    font-size: 0.5rem;
+  }
+}
+
+/* Responsive layout - make li font fit the box */
+@media screen and (max-width: 1216px){
+
+section ul li {
+  list-style: none;
+  background: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 0.3rem;
+}
+
+}
+
+/* Responsive layout for iPhone SE device */
+@media screen and (max-width: 320px) {
+
+  .container-fluid .works{
+
+    padding-right: 0%;
+    padding-left: 2%;
+
+  }
+  .container_works{
+    padding: 10px 10px;
+    margin: 5px auto;
+  }
+
+ 
+  
+  }
+
+/* Footer */
+
+.social-icons{
+  color: black;
+  padding: 2px 5px 2px 5px;
+
+}
+
+.emailadd{
+  align-items: center;
+}
+
+
+
+.social-media {
+  padding: 2rem 0 0 0;
+}
+
+.social-media p {
+  color: #333;
+}
+
+
+
