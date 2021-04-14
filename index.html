@@ -9,9 +9,23 @@
   <title>Minh Ngo | Web Design & Development</title>
     <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap" rel="stylesheet">
+  <!--new font-->
+ 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
+
+
    <!-- CSS styleshets -->
   <link href="your-project-dir/font-css/LineIcons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+   <!--new update-->
+  <link href=
+      "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                  rel="stylesheet" integrity=
+      "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                  crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/styles.css">
   <!-- <link rel="import" href="/MPortfolio/contact-form-bootstrap/formpage.html"> -->
   <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
@@ -23,7 +37,12 @@
   <!-- BootStrap Script -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  
+  <!--new update-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+            
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </head>
 
@@ -34,15 +53,15 @@
 
       <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
 
         <a class="navbar-brand" href="#home">
           <img class="m_logo" src="images/mlogo.png" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler " type="button " data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
 
         <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01">
 
@@ -66,17 +85,66 @@
           </ul>
           <div>
 
-      </nav>
+      </nav> -->
 
+      <!--Responsive navbar bootstrap opt2-->
+      
+          <!-- NAVBAR STARTING -->
+          <!-- Use navbar class to the navbar logo 
+              to the far left of the screen-->
+          <nav class=" navbar navbar-expand-lg 
+              navbar-light bg-light fixed-top py-lg-0 ">
+        
+              <a class="navbar-brand" href="#">
+                  <img src="images/mlogo.png"
+                  width="90" height="auto" alt="">
+              </a>
+                
+              <button class="navbar-toggler" type="button"
+                      data-toggle="collapse" 
+                      data-target="#navbarResponsive"
+                      aria-controls="navbarResponsive" 
+                      aria-expanded="false" 
+                      aria-label="Toggle navigation">
+                        
+                      <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse"
+                      id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="#">about
+                              <span class="sr-only">(current)</span>
+                          </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" href="#services"> services</a>
+                        </li>
+            
+                        <li class="nav-item">
+                          <a class="nav-link" href="#works"> portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact"> contact</a>
+                        </li>
+                  </ul>
+              </div>
+          </nav>
+
+      <!--End Responsive navbar-->
+
+      
       <!-- Title -->
 
       <div class="row" id="home">
         <div class="col">
-          <h1 class="big-heading">HELLO! I’M MAIE</h1>
+          <h1 class="big-heading">HELLO! I’M MINH NGO</h1>
           <img class="title-image" src="images/mlogo.png" alt="logo">
           <h2 class="big-heading">I'M AN UX DESIGNER AND A FRONT END DEVELOPER</h2>
           <!-- <button type="button" class="btn btn-outline-dark btn-lg download-button"><a href="https://www.linkedin.com/in/minh-tngo">my resumme</button> -->
-          <input type="button" class="btn btn-outline-dark btn-lg download-button" onclick="location.href='https://1drv.ms/b/s!AiUOp8iBilb3eJujJivmIACTBhM';" value="my resumme" />
+          <input type="button" class="btn btn-outline-dark btn-lg download-button" onclick="location.href='https://1drv.ms/b/s!AiUOp8iBilb3eJujJivmIACTBhM ';" value="my resumme" />
         </div>
       </div>
     </div>
@@ -113,33 +181,11 @@
                  
                 </div>
               </div>
-
-                <!-- <div class="container">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-1">
-                        <img class="portrait-image" src="images/QO5A6029.jpg" alt="">
-                      </div>
-
-                  <div class="col-lg-2 col-md-1">
-                    <h4 class="about_me">about me</h4>
-                    <hr></hr>
-                    <p class="about_content">There is an old quote that says, “If you want to shoot fashion, shoot in color, but if you want to shoot emotion, shoot in black and white.” I don’t know who said it, but I tend to agree. I do love myself a good
-                      black and white portrait. There is something special about black and white imagery which has the ability to cut through all the baggage and display both the inner beauty and turmoil which can be so easily hidden away by color
-                      photography.
-                    </p>
-                  </div>   
-                </div>
-          
-                </div> -->
-
               </div>
         </div>
 
-
   </section>
-
-
-  <!-- End About me-->
+  <!-- End About me section-->
 
 
   <!-- Services -->
@@ -190,36 +236,35 @@
       <ul>
         <li class="list active" data-filter="all">ALL</li>
         <li class="list" data-filter="design">UX DESIGN</li>
-        <!-- <li class="list" data-filter="camera">Carmera</li> -->
         <li class="list" data-filter="development">DEVELOPMENT</li>
         <li class="list" data-filter="photography">PHOTOGRAPHY</li>
         <li class="list" data-filter="marketing">BRANDING</li>
       </ul>
 
       <div class="product">
-        <div class="itemBox design"><img src="images/hinh/mobile1.jpg"></div>
-        <!-- <div class="itemBox carmera"><img src="images/hinh/camera1.jpg"></div> -->
-        <div class="itemBox development"><img src="images/hinh/watch1.jpg"></div>
-        <div class="itemBox photography"><img src="images/hinh/shoe1.jpg"></div>
-        <div class="itemBox marketing"><img src="images/hinh/headphone1.jpg"></div>
+        <div class="itemBox design"><img src="images/works_photos/UX_01.jpg"></div>
+        <div class="itemBox development"><img src="images/works_photos/dev_01.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_01.jpg"></div>
+        <div class="itemBox marketing"><img src="images/works_photos/Brand_01.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_05.jpg"></div>
 
-        <div class="itemBox design"><img src="images/hinh/mobile2.jpg"></div>
-        <!-- <div class="itemBox carmera"><img src="images/hinh/camera2.jpg"></div> -->
-        <div class="itemBox development"><img src="images/hinh/watch2.jpg"></div>
-        <div class="itemBox photography"><img src="images/hinh/shoe2.jpg"></div>
-        <div class="itemBox marketing"><img src="images/hinh/headphone2.jpg"></div>
+        <div class="itemBox design"><img src="images/works_photos/UX_02.jpg"></div>
+        <div class="itemBox development"><img src="images/works_photos/dev_01.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_02.jpg"></div>
+        <div class="itemBox marketing"><img src="images/works_photos/Brand_02.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_06.jpg"></div>
 
-        <div class="itemBox design"><img src="images/hinh/mobile3.jpg"></div>
-        <!-- <div class="itemBox carmera"><img src="images/hinh/camera3.jpg"></div> -->
-        <div class="itemBox development"><img src="images/hinh/watch3.jpg"></div>
-        <div class="itemBox photography"><img src="images/hinh/shoe3.jpg"></div>
-        <div class="itemBox marketing"><img src="images/hinh/headphone3.jpg"></div>
+        <div class="itemBox design"><img src="images/works_photos/UX_03.jpg"></div>
+        <div class="itemBox development"><img src="images/works_photos/dev_01.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_03.jpg"></div>
+        <div class="itemBox marketing"><img src="images/works_photos/Brand_03.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_07.jpg"></div>
 
-        <div class="itemBox design"><img src="images/hinh/mobile4.jpg"></div>
-        <!-- <div class="itemBox mobile"><img src="images/hinh//mobile5.jpg"></div> -->
-        <div class="itemBox development"><img src="images/hinh/watch4.jpg"></div>
-        <div class="itemBox photography"><img src="images/hinh/shoe4.jpg"></div>
-        <div class="itemBox marketing"><img src="images/hinh/headphone4.jpg"></div>
+        <div class="itemBox design"><img src="images/works_photos/UX_04.jpg"></div>
+        <div class="itemBox development"><img src="images/works_photos/dev_01.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_04.jpg"></div>
+        <div class="itemBox marketing"><img src="images/works_photos/Brand_04.jpg"></div>
+        <div class="itemBox photography"><img src="images/works_photos/wed_08.jpg"></div>
 
       </div>
 
@@ -245,17 +290,18 @@
       </div>
 
       <div class="info">
-          <div class="emailadd">
-            <a href = "mailto: minh.tngo@hotmail.com"><i class="social-icons fas fa-envelope fa-2x"></i></a>
-            <span>minh.tngo@hotmail.com</span>
+          <div class="contact_email">
+            <strong>Email:</strong>
+            <a href = "mailto: minh.tngo@hotmail.com">minh.tngo@hotmail.com</i></a>
+            
           </div>
 
       <div class="social-media">
-        <p>Connect with me :</p>
+        <strong>Connect with me :</strong>
         <div class="social-icons">
-          <a href="#"><i class="social-icons fab fa-linkedin fa-2x"></i></a>
-          <a href="#"><i class="social-icons fab fa-github fa-2x"></i></a>
-          <a href="#"><i class="social-icons fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/minh-tngo/"><i class="social-icons fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/mooreit"><i class="social-icons fab fa-github fa-2x"></i></a>
+          <a href="https://www.flickr.com/photos/depdesignphotography/"><i class="social-icons fab fa-instagram fa-2x"></i></a>
         </div>
       </div>
 
@@ -266,7 +312,7 @@
 
   <div class="copyrights text-center">
       <p class="cprights">
-          Copyright ©2021 All rights reserved
+          Copyright ©2021 | All rights reserved
       </p>
   </div>
 

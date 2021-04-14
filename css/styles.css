@@ -1,28 +1,28 @@
 
 
 body{
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: 'Commissioner', sans-serif;
   text-align: left;
-
 }
 
 h1, h2{
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: 'Commissioner', sans-serif;
   font-weight: 100;
+  
 
 }
 
 h4{
-  font-family: 'Lexend Exa', sans-serif;
-  font-weight: 100;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 500;
   font-size: 3rem;
   color: white;
 
 }
 
 h5{
-  font-family: 'Lexend Exa', sans-serif;
-  font-weight: 100;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 500;
   font-size: 3rem;
   color: black;
 
@@ -39,13 +39,11 @@ p.white{
 
 /* Headings */
 .big-heading{
-  font-family: 'Lexend Exa', sans-serif;
-  font-weight: 900;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
-
-
 }
 
 .section-heading{
@@ -65,35 +63,42 @@ p.white{
   background-color:white;
 }
 
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Navigation Bar */
 .navbar{
   padding: 1rem 2rem 2rem;
-  background: white;
+  /* background: white; */
 
 }
 
 
 .nav-item{
-  padding: 0 30px;
+  padding: 0 40px;
 }
 .nav-link{
   font-size: 1.0rem;
-  font-family: 'Lexend Exa', sans-serif;
-  font-weight: 400;
-
-
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 300;
 }
 .navbar-branch{
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: 'Commissioner', sans-serif;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #F82E8F;
-
+  
 }
 
-.m_logo{
+.a .navbar-branch{
+  margin: 5px;
+}
+
+/* .m_logo{
   width: 15%;
-}
+} */
 
 #home{
   padding-top: 10rem;
@@ -106,12 +111,13 @@ p.white{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 2rem;
+    background-color: white;
 }
 
 
-/* Title Section */
 
+/* Title Section */
 
 .title-image{
     display: block;
@@ -128,26 +134,21 @@ p.white{
     display: block;
     }
   
-
 }
 
-@media (max-width: 600px ){
-
-
-
-}
+/* @media (max-width: 600px ){} */
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+/* @media (min-width: 576px) { 
 
   .product .itemBox{
 
    
   }
 
-}
+} */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -174,6 +175,8 @@ No media query since this is the default in Bootstrap */
 
 
 
+
+
 /* about me */
 
 .container2 {
@@ -197,10 +200,7 @@ No media query since this is the default in Bootstrap */
 
 }
 
-/* .container2.row{
-  display: flex;
-  align-content: space-between;
-} */
+
 
 .about_me {
   font-family: 'Lexend Exa', sans-serif;
@@ -225,13 +225,10 @@ hr {
 }
 
 
-/* Features-section */
+/* services-section */
 
 #services{
   position: relative;
-  /* margin-bottom: 30px;
-  padding: 23px;
-  background: black; */
 }
 
 
@@ -280,7 +277,8 @@ section ul li {
   margin: 5px;
   letter-spacing: 1px;
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 1.0rem;
+  font-weight: 500;
 }
 
 section ul li.active{
@@ -295,24 +293,7 @@ section ul li.active{
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px; */
-
 }
-
-/* .product .itemBox{
-  position: relative;
-  width: 250px;
-  height: 250px;
-  margin: 5px;
-}
-
-.product .itemBox img{
-  position: absolute;
-  top: 0;
-  width:100%;
-  height: 100%;
-  left: 0;
-  object-fit: cover;
-} */
 
 .product .itemBox{
   flex: 25%;
@@ -372,7 +353,7 @@ section ul li {
   margin: 5px;
   letter-spacing: 1px;
   cursor: pointer;
-  font-size: 0.3rem;
+  font-size: 0.5rem;
 }
 
 }
@@ -391,9 +372,69 @@ section ul li {
     margin: 5px auto;
   }
 
- 
+  .title-image{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .big-heading{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .download-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+
+}
   
   }
+  /* Media Queries for device 360px and up */
+    @media only screen and (min-width: 360px) {
+
+    .container-fluid .works{
+
+      padding-right: 0%;
+      padding-left: 2%;
+  
+    }
+    .container_works{
+      padding: 10px 10px;
+      margin: 5px auto;
+    }
+
+    section ul{
+      margin-bottom: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      padding-left: 0rem;
+    }
+
+    section ul li {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 0.6rem;
+    }
+
+    .title-image{
+      display: block;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+  }
+     
+  }
+
+  
 
 /* Footer */
 
@@ -403,7 +444,7 @@ section ul li {
 
 }
 
-.emailadd{
+.contact_email{
   align-items: center;
 }
 

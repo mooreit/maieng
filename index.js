@@ -17,4 +17,8 @@
    })
  });
 
-//form action
+//add active class on selected navbar link
+
+$('.nav-item').click(function(){
+  $(this).addClass('active').siblings().removeClass('active');
+})
